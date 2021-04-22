@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+
+<head>
+    <title>Who's That Poke Unscrambler</title>
+    <link rel="stylesheet" href="style.css" />
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300&family=Roboto:wght@100;400&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <div class="body">
+        <div class="header">Who's That Poke Unscrambler</div>
+        <div class="subheader">
+            <input type="text"
+                id="input-text"
+                class="search"
+                onkeyup="checkDisabled()"
+                placeholder="Enter text to unscramble..." />
+            <button id="submit"
+                onclick="unscramble()"
+                disabled>
+                Unscramble!
+            </button>
+        </div>
+        <div id="answer"></div>
+    </div>
+    <script type="text/javascript" src="wtp.js"></script>
+</body>
+
+</html>
