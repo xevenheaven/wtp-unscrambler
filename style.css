@@ -14,14 +14,16 @@ body {
 .body {
     background: #F0F8FF;
     max-width: 550px;
-    height: 90px;
+    height: 100px;
     margin-right: auto;
     margin-left: auto;
     padding: 20px;
+    text-align: center;
 }
 
 .header {
     font-family: 'Merriweather', serif;
+    font-size: 1.2em;
 }
 
 .subheader {
@@ -30,18 +32,17 @@ body {
     vertical-align: text-bottom;
 }
 
-.subheader label,
-.subheader button {
+.subheader label, .subheader button {
     display: inline-block;
     vertical-align: text-bottom;
 }
 
-.subheader input,
-.subheader button {
+.subheader input, .subheader button {
     border: 1px solid #AAA;
     border-radius: 5px;
     font-family: 'Roboto', sans-serif;
     font-weight: 100;
+    font-size: 1em;
     padding: 5px;
     vertical-align: text-bottom;
 }

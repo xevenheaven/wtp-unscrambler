@@ -1,0 +1,32 @@
+@media screen and (max-device-width: 600px) {
+    body {
+        align-items: flex-start;
+        padding-top: 50px;
+    }
+
+    .body {
+        max-width: 100%;
+        height: 160px;
+        width: 80%;
+    }
+
+    .header {
+        font-size: 2em;
+    }
+
+    .subheader input, .subheader button {
+        font-size: 1.8em;
+    }
+
+    .subheader input {
+        min-width: 330px;
+        margin-right: 5px;
+    }
+
+    #answer {
+        display: inline-block;
+        font-size: 1.8em;
+        margin-top: 20px;
+        width: 50%;
+    }
+}
